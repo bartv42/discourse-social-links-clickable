@@ -166,8 +166,8 @@
                 if (siteUserField && userFields[siteUserField.get('id')]) {
                     var socialLinkValue = userFields[siteUserField.get('id')];
                     socialLinkValue = RegExp(baseregex).test(socialLinkValue) ? socialLinkValue : base + socialLinkValue;
-                    Ember.set(field, 'href', socialLinkValue || '')
-                    Ember.set(field, 'mastodon, (field.name == 'Mastodon'))
+                    Ember.set(field, 'href', socialLinkValue || '');
+                    Ember.set(field, 'mastodon, (field.name == 'Mastodon'));
                 } else {
                     return null
                 }
