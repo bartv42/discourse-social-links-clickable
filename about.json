@@ -4,7 +4,7 @@
   "license_url": "https://github.com/weallwegot/discourse-social-links-clickable/blob/master/LICENSE",
   "assets": {
     "icons-sprite": "/assets/my-icons.svg"
-  }
+  },
   "component": true,
   "color_schemes": {
   }
