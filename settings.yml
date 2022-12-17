@@ -13,6 +13,7 @@ tiktok_custom_field_name: 'Tiktok'
 telegram_custom_field_name: 'Telegram'
 mastodon_custom_field_name: 'Mastodon'
 artstation_custom_field_name: 'ArtStation'
+sketchfab_custom_field_name: 'Sketchfab'
 icon_color: 'black'
 
 _icon:
