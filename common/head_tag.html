@@ -118,6 +118,26 @@
                 baseregex: '^(https://)?t.me/'
             }
         },
+        {
+            name: 'Mastodon',
+            icon: 'fab-mastodon',
+            link: {
+                type: 'userField',
+                value: settings.mastodon_custom_field_name,
+                base: 't.me/',
+                baseregex: '^(https://)?t.me/'
+            }
+        },
+        {
+            name: 'ArtStation',
+            icon: 'fab-artstation',
+            link: {
+                type: 'userField',
+                value: settings.artstation_custom_field_name,
+                base: 't.me/',
+                baseregex: '^(https://)?t.me/'
+            }
+        },
     ]
 
     fieldOptions.userIconicUserFields = fieldOptions.iconicUserFields
