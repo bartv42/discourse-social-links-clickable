@@ -217,11 +217,7 @@
         <div class="iconic-user-fields">
             {{#each iconicUserFields as |ic|}}
             {{#if ic.icon}}
-                {{#if ic.mastodon}}
-                    <a href="{{ic.href}}" rel="me" target="_blank" title="{{ic.name}}">{{d-icon ic.icon}}</a>
-                {{else}}
-                    <a href="{{ic.href}}" rel="nofollow" target="_blank" title="{{ic.name}}">{{d-icon ic.icon}}</a>
-                {{/if}}
+                <a href="{{ic.href}}" rel="nofollow" target="_blank" title="{{ic.name}}">{{d-icon ic.icon}}</a>
             {{/if}}
             {{/each}}
         </div>
