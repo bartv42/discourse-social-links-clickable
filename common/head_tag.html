@@ -199,7 +199,7 @@
         <div class="iconic-user-fields">
             {{#each userIconicUserFields as |ic|}}
             {{#if ic.icon}}
-                {{#if_eq ic.name 'Mastodon'}}
+                {{#if ic.name == 'Mastodon'}}
                     <a href="{{ic.href}}" rel="me nofollow" target="_blank" title="{{ic.name}}">{{d-icon ic.icon}}</a>
                 {{else}}
                     <a href="{{ic.href}}" rel="nofollow" target="_blank" title="{{ic.name}}">{{d-icon ic.icon}}</a>
@@ -216,7 +216,7 @@
         <div class="iconic-user-fields">
             {{#each iconicUserFields as |ic|}}
             {{#if ic.icon}}
-                {{#if_eq ic.name 'Mastodon'}}
+                {{#if ic.name == 'Mastodon'}}
                     <a href="{{ic.href}}" rel="me nofollow" target="_blank" title="{{ic.name}}">{{d-icon ic.icon}}</a>
                 {{else}}
                     <a href="{{ic.href}}" rel="nofollow" target="_blank" title="{{ic.name}}">{{d-icon ic.icon}}</a>
